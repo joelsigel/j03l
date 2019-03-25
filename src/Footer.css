@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
 .footer {
   position: absolute;
   bottom: 0;
@@ -8,11 +9,47 @@
 }
 .subtitle {
   margin-bottom: 1%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 h2 {
   text-transform: uppercase;
   font-size: 50px;
+  margin-bottom: 15px;
 }
 .text-muted {
-  
+  color: rgba(1, 1, 1, 1) !important;
+}
+.footer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .5rem 2.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+  transition: color 2s ease-in-out,background-color 2s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-white {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn:hover {
+    color: #212529;
+    background-color: #fff;
+    text-decoration: none;
 }

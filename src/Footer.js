@@ -11,9 +11,9 @@ class Footer extends Component {
           <Row>
             <Col xs="12">
               <p className="subtitle">Something | <span className="text-muted">Something</span></p>
-              <h2>Something & Something</h2>
+              <h2>Something</h2>
               <p>Something with something else might make something more.</p>
-              <Button color="danger">Danger!</Button>
+              <Button color="white">Danger! </Button>
             </Col>
           </Row>
         </Container>
