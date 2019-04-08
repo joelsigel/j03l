@@ -1,14 +1,22 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { isMobile } from 'react-device-detect';
+import { Container, Row, Col, Button } from 'reactstrap';
 import './Video.css';
 import video from './test.mp4';
+// import image from '.assets/placeholder.jpg';
+
 
 class Video extends Component {
 
+  renderContent = () => {
+    if (isMobile) {
+        return <Container><Row><Col xs="12"><div>This content is unavailable on mobile</div></Col></Row></Container>
+    }
+    return <video autoPlay loop muted src={video}></video>
+  }
+
   render(){
-    return [
-      <video autoPlay loop muted src={video}></video>
-      // <video autoPlay loop muted src="http://joelsigel.com/mock-404/assets/videos/342932613.mp4"></video>
-    ]
+    return this.renderContent();
   }
 }
 
