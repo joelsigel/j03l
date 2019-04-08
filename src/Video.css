@@ -1,0 +1,43 @@
+/* NOTE: Only use if not doing the Ken Burns effect. */
+/* video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/* NOTE: If only showing the standard video then comment out everything below. */
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* transform: translate(-50%, -50%); */
+  min-width: 100%;
+  min-height: 100%;
+}
+video {
+  animation:move 35s ease-in-out infinite; /* Change this to alternate to stop the loop. */
+  -ms-animation:move 35s ease-in-out infinite;
+  -webkit-animation:move 35s ease-in-out infinite;
+  -0-animation:move 35s ease-in-out infinite;
+  -moz-animation:move 35s ease-in-out infinite;
+}
+
+@-webkit-keyframes move {
+  from {
+    transform: scale(1.0);
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Safari and Chrome */
+    -o-transform: scale(1.0); /* Opera */
+    -moz-transform: scale(1.0); /* Firefox */
+  }
+  to {
+  	transform: scale(1.3);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari and Chrome */
+    -o-transform: scale(1.3); /* Opera */
+    -moz-transform: scale(1.3); /* Firefox */
+  }
+}
