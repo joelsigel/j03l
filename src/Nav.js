@@ -10,7 +10,7 @@ class Nav extends Component {
 
   render(){
     return [
-      <Container className="navigation">
+      <Container className="navigation" key={4} >
         <Row>
           <Col className="logo" xs="2">&lt;/J03L&gt;</Col>
           <Col xs="8"></Col>

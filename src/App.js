@@ -9,9 +9,9 @@ import Footer from './Footer';
 class App extends Component {
   render() {
     return [
-      <Nav />,
-      <Video />,
-      <Footer />
+      <Nav key={1} />,
+      <Video key={2} />,
+      <Footer key={3} />
     ]
   }
 }

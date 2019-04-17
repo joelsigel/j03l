@@ -6,7 +6,7 @@ class Footer extends Component {
 
   render(){
     return [
-      <footer className="footer">
+      <footer className="footer" key={5} >
         <Container>
           <Row>
             <Col xs="12">
