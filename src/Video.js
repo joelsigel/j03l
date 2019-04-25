@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { isMobile } from 'react-device-detect';
 import { Container, Row, Col } from 'reactstrap';
 import './Video.css';
-import video from './test.mp4';
+import video from './buick.mp4';
 // import image from '.assets/placeholder.jpg';
 
 
