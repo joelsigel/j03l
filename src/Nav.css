@@ -11,3 +11,6 @@
 .menu svg {
   line-height: 1.5em;
 }
+.menuButton {
+  cursor: pointer;
+}

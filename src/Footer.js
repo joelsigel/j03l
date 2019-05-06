@@ -15,10 +15,10 @@ class Footer extends Component {
               <p className='description'>Sometimes somethings surprise someone so stupidly, steven scientifically switches subliminal sides.</p>
               <button className="loadpage in">
                 <span>Something!!</span>
-                <div class="left"></div>
-                <div class="top"></div>
-                <div class="right"></div>
-                <div class="bottom"></div>
+                <div className="left"></div>
+                <div className="top"></div>
+                <div className="right"></div>
+                <div className="bottom"></div>
               </button>
             </Col>
           </Row>
