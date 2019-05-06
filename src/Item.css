@@ -4,10 +4,15 @@
   height: 200px;
   overflow: hidden; */
 }
-video.previewVideo {
+.previewVideo video {
   width: 100%;
   min-width: 125px;
   object-fit: cover;
   object-position: center;
   cursor: pointer;
+}
+.previewVideo span.text-muted {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8px;
 }

@@ -7,9 +7,10 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(1,1,1,0.8);
+  background-color: rgba(1,1,1,0.9);
+  overflow: scroll;
 }
 .popup_inner {
-  position: relative;
-  top: 15%;
+  /* position: relative;
+  top: 15%; */
 }

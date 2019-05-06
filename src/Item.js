@@ -22,9 +22,12 @@ class Item extends Component {
   render() {
 
       return (
-        <Col xs="6" onMouseOver={this.playVideo.bind(this)} onMouseLeave={this.pauseVideo.bind(this)}>
-          <video className="previewVideo" ref="vidRef" muted key={this.props.item.video} poster={this.props.item.poster} src={this.props.item.video}></video>
-          <p>{this.props.item.name}</p>
+        <Col xs="6" className="previewVideo" onMouseOver={this.playVideo.bind(this)} onMouseLeave={this.pauseVideo.bind(this)}>
+          <video ref="vidRef" muted key={this.props.item.video} poster={this.props.item.poster} src={this.props.item.video}></video>
+          <p align="center">{this.props.item.title}
+            <br/>
+            <span className="text-muted">{this.props.item.title}</span>
+          </p>
         </Col>
       )
   }

@@ -13,8 +13,8 @@ class Popup extends Component {
               <Col xs="8">
                 <h1>{this.props.text}</h1>
               </Col>
-              <Col xs="4">
-                <button onClick={this.props.closePopup}>xxx</button>
+              <Col xs="4" align="right">
+                <button onClick={this.props.closePopup}>X</button>
               </Col>
             </Row>
           </Container>
