@@ -21,7 +21,7 @@ class Popup extends Component {
           <Container>
             <Row>
                 {
-                  this.props.steps.map((item, key, count) =>
+                  this.props.steps.map((item, key) =>
                   <Item item={item} key={item.id} />)
                 }
             </Row>

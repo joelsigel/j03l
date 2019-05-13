@@ -16,3 +16,12 @@
   letter-spacing: 2px;
   font-size: 8px;
 }
+.previewImage img {
+  width: 100%;
+  min-width: 125px;
+}
+.previewImage span.text-muted {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8px;
+}

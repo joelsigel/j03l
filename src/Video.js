@@ -7,14 +7,14 @@ import video from './buick.mp4';
 
 class Video extends Component {
 
-  renderContent = () => {
+  renderContent = (props) => {
     if (isMobile) {
         return <Container><Row><Col xs="12">This content is unavailable on mobile</Col></Row></Container>
     }
-    return <video className="mainVideo" autoPlay loop muted src={video}></video>
+    return <video ref="main" className="mainVideo" autoPlay loop muted src={video}></video>
   }
 
-  render(){
+  render(props){
     return this.renderContent();
   }
 }

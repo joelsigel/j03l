@@ -10,13 +10,14 @@ import './Nav.css'
 // NOTE: asset imports
 //
 import video from './buick.mp4'
-import poster from './buick.jpg'
+import poster from './images/buick.jpg'
+import image from './images/front-end.jpg'
 
 //
 // NOTE: class imports
 //
 import Popup from './Popup'
-import Item from './Item'
+
 
 //
 // NOTE: addon imports
@@ -34,19 +35,10 @@ class Nav extends Component {
       showPopup: false,
       steps: [
         {
-          id: 11, title: 'commerical', poster: poster, video: video
+          id: 11, title: 'buick riviera', component:false, poster: poster, video: video
         },
         {
-          id: 42, title: 'transmission', poster: poster, video: video
-        },
-        {
-          id: 72, title: 'alternator', poster: poster, video: video
-        },
-        {
-          id: 100, title: 'something', poster: poster, video: video
-        },
-        {
-          id: 102, title: 'something', poster: poster, video: video
+          id: 42, title: 'azdhs', component:true, image: image
         }
       ]
     }
